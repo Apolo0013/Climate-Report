@@ -1,0 +1,23 @@
+{
+    "name": "clima-report",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx tsx src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.10",
+        "@types/node": "^26.6.5",
+        "tsx": "^4.23.15"
+    },
+    "dependencies": {
+        "inquirer": "^14.2.4"
+    }
+}
